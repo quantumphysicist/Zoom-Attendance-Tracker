@@ -1,5 +1,5 @@
 # Attendance Tracker
-This script processes Zoom attendance data by comparing a list of expected participants against a list of actual participants. It loads two CSV files: one containing the expected participants with their official and informal names, and the other containing the actual participants. It exports an Excel file containing the attendance information, including the names of the attendees and their attendance status (Present, Absent, or Present (Unrecognized Name)).
+This script processes Zoom attendance data by comparing a list of expected participants against a list of actual participants. It loads two CSV files: one containing the expected participants with their unofficial and official names (`expected_participants.csv`), and the other containing the actual participants (`participants_1234567890.csv`). It exports an Excel file containing the attendance information, including the names of the attendees and their attendance status (Present, Absent, or Present (Unrecognized Name)).
 
 ## Requirements
 Python 3.7 or higher  
