@@ -3,9 +3,10 @@ This script processes Zoom attendance data by comparing a list of expected parti
 
 ## Requirements
 Python 3.7 or higher  
-Pandas library
-openpyxl library (if this is not installed already, you can install it by running `conda install -c anaconda openpyxl` or `pip install openpyxl`)
+Pandas library 
+openpyxl library 
 - If openpyxl is not installed, the script will generate a CSV file instead of an Excel file.
+- You can install it openpyxl by running `conda install -c anaconda openpyxl` or `pip install openpyxl`)
 
 ## Usage
 1. Export the participants list from [Zoom](https://zoom.us/account/my/report) ensuring that you check both "Export with meeting data" and "Show unique users". Please refer to this guide for more information: https://www.eduhk.hk/ocio/content/faq-how-retrieve-attendance-list-zoom-meeting.
