@@ -3,7 +3,7 @@ This script processes Zoom attendance data by comparing a list of expected parti
 
 ## Requirements
 Python 3.7 or higher  
-Pandas library 
+Pandas library   
 openpyxl library 
 - If openpyxl is not installed, the script will generate a CSV file instead of an Excel file.
 - You can install it openpyxl by running `conda install -c anaconda openpyxl` or `pip install openpyxl`)
