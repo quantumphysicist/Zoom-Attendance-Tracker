@@ -79,9 +79,8 @@ attendance_df.index += 1
 attendance_df.to_csv('attendance.csv', index=False)
 print(attendance_df)
 print()
-print("Saved to attendance.csv")
-print("-----------------------")
 
+print("-----------------------")
 try:
     expected_participants = pd.read_csv('expected_participants.csv')
     expected_participants = expected_participants[['Official Name', 'Coach Name']]
@@ -129,4 +128,4 @@ try:
     import os
     os.remove('attendance.csv')
 except:
-    print("Coach names not added to attendance.xlsx")
+    print("Saved to attendance.csv")
