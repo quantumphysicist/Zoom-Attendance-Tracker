@@ -14,5 +14,11 @@ openpyxl library
 3. Run the script by executing `python attendance_tracker.py`.
 4. The script will generate an Excel file named `attendance.xlsx` with the attendance information, including the names of the attendees and their attendance status (Present, Absent, or Present (Unrecognized Name)).
 
+## Example of Excel Output <a name="screenshot"></a>
+<p align="center">
+  <img src="Excel_File.png" />
+</p>
+
+
 [//]: <> (## Note: The script assumes that the exported participants list from Zoom is saved as `participants_xxxxxxx.csv` in the same directory as the script file.)
 
