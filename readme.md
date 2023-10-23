@@ -16,7 +16,7 @@ openpyxl library
 
 ## Example of Excel Output <a name="screenshot"></a>
 <p align="center">
-  <img src="extra\Excel_File.png" />
+  <img src="Excel_File.png" />
 </p>
 
 
